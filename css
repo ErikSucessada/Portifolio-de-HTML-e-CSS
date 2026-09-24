@@ -1,0 +1,137 @@
+/* Estilos Básicos */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f0f4f8; /* Fundo azul bem claro e suave */
+}
+
+/* Cabeçalho com Azul Vibrante */
+header {
+    background-color: #4a90e2; /* Azul moderno */
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 4px;
+    background-color: #357abd; /* Fundo leve nos botões do menu */
+}
+
+nav a:hover {
+    background-color: #f39c12; /* Laranja ao passar o mouse para dar destaque */
+    color: white;
+}
+
+/* Conteúdo Principal */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Efeito de sombra para destacar do fundo */
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #e67e22; /* Títulos em Laranja para combinar com o hover */
+    border-bottom: 2px solid #e67e22;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* Correção das Imagens */
+.img-avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Deixa a imagem perfeitamente redonda */
+    border: 4px solid #4a90e2; /* Borda azul combinando com o cabeçalho */
+    display: block;
+    margin: 0 auto 15px auto;
+    object-fit: cover;
+}
+
+.img-destaque {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    border: 3px solid #e67e22; /* Borda laranja combinando com os títulos */
+    display: block;
+    margin: 15px auto;
+    object-fit: cover;
+}
+
+/* Flexbox para Cartões (Cards com visual limpo) */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.card {
+    background-color: #e8f4f8; /* Fundo azul clarinho */
+    border-left: 5px solid #4a90e2; /* Detalhe colorido na lateral */
+    padding: 15px;
+    border-radius: 6px;
+    flex: 1;
+    min-width: 120px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Contatos e Botões Verdes */
+.lista-contato {
+    list-style: none;
+}
+
+.lista-contato li {
+    margin-bottom: 12px;
+}
+
+.link-box {
+    display: inline-block;
+    background-color: #27ae60; /* Verde vibrante para botões de ação */
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.link-box:hover {
+    background-color: #2ecc71; /* Verde mais claro no hover */
+}
+
+/* Rodapé Escuro para contraste final */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #2c3e50;
+    color: white;
+    margin-top: 30px;
+}
